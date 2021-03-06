@@ -26,8 +26,6 @@ app.get('/users/:id',function(req,res){
 	})
 })
 
-app.listen(8000,function(){console.log("server is running")})
-
 app.post('/login',function(req,res){
      const username=req.body.username;
      const password=req.body.password;
@@ -48,3 +46,5 @@ app.post('/login',function(req,res){
           })
      }
 })
+
+app.listen(8000,function(){console.log("server is running")})
