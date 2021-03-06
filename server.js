@@ -6,7 +6,8 @@ app.use(bodyParser.json());
 
 const mockUserData=[
      {name:'Mark'},
-     {name:'Jill'}
+     {name:'Jill'},
+     {name:'Harry'}
      ]
 
 app.get('/users', function(req,res){
